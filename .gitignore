@@ -1,0 +1,26 @@
+# Python virtual environment
+backend/venv/
+venv/
+ENV/
+
+# Environment variables (sensitive API keys)
+backend/.env
+.env
+.env.local
+
+# Python cache and compiled files
+backend/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node dependencies and build output
+frontend/my-app/node_modules/
+frontend/my-app/dist/
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
